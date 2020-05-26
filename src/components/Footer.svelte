@@ -1,47 +1,22 @@
 <script>
-    //border: 3px solid var(--background-shadow-1);
-    //background-color: var(--background-light-1);
-    //border-radius: 10px;
-        
 </script>
 
 <style>
     div.content {
-        position: sticky;
-        top: 120px;
-        left: 10px;
-        width: 270px;
-        float: left;
-        opacity: 0.5;
-    }
-
-    div.content:hover {
-        opacity: 1;
-    }
-
-    div.content img.profile {
-      border-radius: 50%;
-      width: 150px;
-      margin-left: 60px;
-      margin-top: 10px
-
-    }
-
-    div.content p.description {
-        padding: 5px;
-        color: var(--text);
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: var(--navbar-color);
         text-align: center;
     }
 
-    div.content h1.name {
-        padding: 5px;
-        color: var(--text);
-        text-align: center;
-    }
-
-    div.content div.social{
-        color: var(--text);
-        text-align: center;
+    div.content div.social {
+        display: inline-block;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     div.content div.social a{
@@ -51,15 +26,10 @@
     div.content div.social a:hover {
         color: var(--navbar-text-shadow);
     }
-
 </style>
 
+<br><br>
 <div class="content">
-    <img class="profile" src="https://pbs.twimg.com/profile_images/1244438560918384640/7yPACbDA_400x400.jpg" alt="ProfilePicture">
-    <h1 class="name" >Nicolás</h1>
-    <p class="description">
-        Just another programmer with big dreams.
-    </p>
     <div class="social">
         <a href="https://github.com/NicolasSabba" target="_blank">
             <i class="fab fa-github icon"></i>

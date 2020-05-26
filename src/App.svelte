@@ -1,6 +1,7 @@
 <script>
 	// Deps
 	import Navbar from './components/Navbar.svelte';
+	import Footer from './components/Footer.svelte';
 	
 	// Content
 	import Home from './components/Home.svelte'
@@ -67,4 +68,5 @@
 <body>
 	<Navbar bind:active={tab}/>
 	<svelte:component this={rutas[tab]}/>
+	<Footer/>
 </body>

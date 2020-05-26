@@ -121,5 +121,7 @@
             {/if}
         {/if} 
     </div>
-    <h1>Esto es el home</h1>
+    <div class="info">
+        <p></p>
+    </div>
 </div>
