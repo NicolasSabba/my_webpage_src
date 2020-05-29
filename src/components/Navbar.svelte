@@ -2,7 +2,6 @@
     export let active;
 
     function change_active(value) {
-        console.log(active, window.location.href.split('/#/'))
         active = value;
     }
 
