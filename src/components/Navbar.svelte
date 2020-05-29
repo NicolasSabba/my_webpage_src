@@ -48,5 +48,5 @@
     <a href="#/showcase" class='link {active === "#/showcase" ? "inactive" : "active"}' on:click='{() => change_active("showcase")}'>Showcase</a>
     <a href="#/projects" class='link {active === "#/projects" ? "inactive" : "active"}' on:click='{() => change_active("projects")}'>Projects</a>
     -->
-    <a href="#/me" class='link {active === "#/me" ? "inactive" : "active"}' on:click='{() => change_active("me")}'>About me</a>
+    <a href="#/me" class='link {active === "me" ? "inactive" : "active"}' on:click='{() => change_active("me")}'>About me</a>
 </nav>
