@@ -1,8 +1,4 @@
 <script>
-    //border: 3px solid var(--background-shadow-1);
-    //background-color: var(--background-light-1);
-    //border-radius: 10px;
-        
 </script>
 
 <style>

@@ -63,7 +63,7 @@
         width: 98%;
         height: 400px;
         background-color: #333;
-        border: 1px solid var(--background-shadow-2);
+        border: 1px solid #3A2E12;
         border-radius: 10px;
     }
 
