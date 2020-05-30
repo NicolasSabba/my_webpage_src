@@ -45,11 +45,11 @@
 		--background-light-1: #877C63;
 		--background-light-2: #B3A78C;
 		
-		--navbar-color: #7E7666;
+		--navbar-color: #877C63;
 		--navbar-text-shadow: #333333;
 		
 		--text : #F0C12D;
-		--text-shadow: #AD8D18;
+		--text-dark: #333;
 	}
 
 	@media (min-width: 1100px) {

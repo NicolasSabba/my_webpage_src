@@ -63,7 +63,7 @@
         width: 98%;
         height: 400px;
         background-color: #333;
-        border: 1px solid #3A2E12;
+        border: 1px solid var(--background-shadow-1);
         border-radius: 10px;
     }
 
@@ -126,8 +126,13 @@
     div.content div.info {
         columns: 2;
         margin: auto;
-        margin-top: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         width: 800px;
+        padding: 25px;
+        background-color: var(--background-light-1);
+        border: 2px solid var(--background-shadow-2);
+        border-radius: 10px;
     }
 
     div.content div.info div.img {
@@ -136,6 +141,7 @@
     }
 
     div.content div.info div.img img {
+        border: 1px solid var(--background-color);
         border-radius: 50%;
         width: 350px;
     }

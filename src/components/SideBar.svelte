@@ -3,12 +3,17 @@
 
 <style>
     div.content {
+        padding-bottom: 10px; 
         position: sticky;
         top: 120px;
         left: 10px;
         width: 270px;
+        height: 400px;
         float: left;
         opacity: 0.5;
+        background-color: var(--background-light-1);
+        border: 2px solid var(--background-shadow-2);
+        border-radius: 10px;
     }
 
     div.content:hover {
@@ -16,11 +21,11 @@
     }
 
     div.content img.profile {
-      border-radius: 50%;
-      width: 150px;
-      margin-left: 60px;
-      margin-top: 10px
-
+        border: 1px solid var(--background-color);
+        border-radius: 50%;
+        width: 150px;
+        margin-left: 60px;
+        margin-top: 10px
     }
 
     div.content p.description {

@@ -4,10 +4,22 @@
 
 <style>
     div {
-        width: 70%;
         margin: auto;
+        width: 600px;
+        margin-top: 30px;
         margin-left: 450px;
+        margin-bottom: 30px;
+        padding: 20px;
+        padding-left: 40px;
+        padding-right: 0px;
         color: var(--text);
+        background-color: var(--background-light-1);
+        border: 2px solid var(--background-shadow-1);
+        border-radius: 10px;
+    }
+
+    div h1, div h3 {
+        text-decoration: underline;
     }
 
     a {
@@ -23,7 +35,7 @@
 
 <SideBar/>
 <div>
-    <h1>Nicolas Cesar Sabbatini Vrech</h1> 
+    <h1 style="font-size: 40px; padding-left: 14px;">Nicolas Cesar Sabbatini Vrech</h1> 
     <h3>Currently doing:</h3>
     <ul>
         <li>Working in <a href="https://santexgroup.com/" target="_blank">Santex</a> as a Full Stack developer.</li>

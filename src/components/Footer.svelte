@@ -9,6 +9,7 @@
         width: 100%;
         background-color: var(--navbar-color);
         text-align: center;
+        border-top: 2px solid var(--background-shadow-1);
     }
 
     div.content div.social {

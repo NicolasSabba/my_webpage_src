@@ -16,6 +16,7 @@
         height: 65px;
         font-weight: bold;
         font-size: 29px;
+        border-bottom: 2px solid var(--background-shadow-1);
     }
 
     nav a.link {
